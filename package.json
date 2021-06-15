@@ -1,6 +1,6 @@
 {
   "name": "express-promisify-handler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Express promises support",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -12,7 +12,10 @@
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:types && node esbuild.build.js",
+    "build:types": "tsc --declaration --outDir dist --allowSyntheticDefaultImports src/index.ts",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
