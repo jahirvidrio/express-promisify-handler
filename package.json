@@ -1,6 +1,6 @@
 {
   "name": "express-promisify-handler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express promises support",
   "source": "src/index.ts",
   "main": "dist/index.js",
