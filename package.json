@@ -1,6 +1,6 @@
 {
   "name": "express-promisify-handler",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Express promises support",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -32,8 +32,7 @@
     "url": "https://github.com/jahirvidrio/express-promisify-handler/issues"
   },
   "homepage": "https://github.com/jahirvidrio/express-promisify-handler#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/express": "^4.17.12",
     "esbuild": "^0.12.8",
